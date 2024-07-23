@@ -31,7 +31,7 @@ function NewMessage({ currentUser, onAddMessage }) {
         autoComplete="off"
         value={body}
         onChange={(e) => setBody(e.target.value)}
-        required
+        // required
       />
       <button type="submit">Send</button>
     </form>
